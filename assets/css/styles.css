@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+.content {
+  width: 1400px;
+  max-width: calc(100% - 28px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header .row-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  left: 0;
+  display: flex;
+  width: 500px;
+  height: 100px;
+}
+
+.Policy {
+  right: 0;
+  display: flex;
+}
+
+.header .row-2 {
+  background-color: rgb(27, 125, 27);
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.search-book {
+  display: flex;
+  align-items: center;
+}
+
+.header .row-2 .list {
+  font-size: 28px;
+  font-weight: lighter;
+  color: white;
+}
+
+.header .search-book input {
+  height: 28px;
+  width: 200px;
+  margin-right: 5px;
+}
+
+.header .btn-search a {
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.546);
+  padding: 5px;
+  color: black;
+}
+
+.header .row-2 .btn a {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(35, 174, 86);
+  padding: 5px;
+  border: 1px solid;
+  border-radius: 3px;
+}
+
+main {
+  margin-top: 30px;
+}
+
+main .content {
+  display: flex;
+}
+
+.column-1 {
+  width: 350px;
+}
+
+.column-1 .list-book a {
+  display: flex;
+  padding: 20px;
+  color: #086413;
+  border-top: 3px dotted #038b13;
+  align-items: center;
+  font-weight: 600;
+  border-left: 3px solid #038b13;
+  border-right: 3px solid #038b13;
+}
+
+.column-1 .list-book li:last-child {
+  border-bottom: 3px dotted #038b13;
+}
+
+.column-2 {
+  width: calc(100% - 350px);
+  height: 1550px;
+  margin-left: 20px;
+  border: 3px solid #038b13;
+}
+
+.column-2 .row-1 {
+  margin-top: 25px;
+  margin-left: 15px;
+  font-size: 28px;
+  color: #038b13;
+  border-bottom: 3px solid #038b13;
+}
+
+.column-2 .list-book {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-around;
+}
+
+.column-2 .list-book img,
+.column-2 .list-book .content-book {
+  width: 185px;
+  height: 250px;
+}
+
+.column-2 .list-book .content-book {
+  display: block;
+}
+
+.column-2 .content-book p {
+  margin-top: 20px;
+  line-height: 1.6;
+  color: rgb(6, 16, 123);
+}
+
+.book:not(.book:first-child) {
+  margin-top: 200px;
+}
+
+/* Price */
+.column-2 .price {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.column-2 .price .old-price {
+  position: relative;
+  margin-right: 5px;
+}
+
+.column-2 .price .old-price::before {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 2px;
+  background-color: red;
+  top: 8px;
+}
+
+.column-2 .price .new-price {
+  color: red;
+  font-size: 20px;
+}
+
+footer .content {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  margin-top: 15px;
+  background-color: #ccc;
+}
+
+footer .content .body {
+  margin-left: 10px;
+}
+
+footer p {
+  margin: 4px;
+  font-size: 14px;
+  color: black;
+}

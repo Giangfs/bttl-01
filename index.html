@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="content">
+        <div class="navbar">
+          <div class="row-1">
+            <!-- Logo -->
+            <a class="logo" href="#">
+              <img src="./assets/img/logo.png" alt="Logo" />
+            </a>
+
+            <!-- Policy -->
+            <a class="Policy" href="#">
+              <img src="./assets/img/chinh-sach.png" alt="Policy" />
+            </a>
+          </div>
+          <div class="row-2">
+            <div class="list">Danh mục sách</div>
+            <div class="search-book">
+              <input type="text" placeholder="Nhập sách bạn muốn tìm" />
+              <div class="btn-search">
+                <a href="#">Tìm sách</a>
+              </div>
+            </div>
+            <div class="btn">
+              <a href="#">Giỏ hàng</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="content">
+        <div class="column-1">
+          <ul class="list-book">
+            <li>
+              <a href="#">Sách giảm giá</a>
+            </li>
+            <li>
+              <a href="#hot">Sách bán chạy</a>
+            </li>
+            <li>
+              <a href="#">Sách mới phát hành</a>
+            </li>
+            <li>
+              <a href="#kinh-te">Sách kinh tế</a>
+            </li>
+            <li>
+              <a href="#">Sách ngoại ngữ</a>
+            </li>
+            <li>
+              <a href="#">Sách văn học trong nước</a>
+            </li>
+            <li>
+              <a href="#">Sách văn học nước ngoài</a>
+            </li>
+            <li>
+              <a href="#">Sách thiếu nhi</a>
+            </li>
+            <li>
+              <a href="#kh-kt">Sách chuyên ngành</a>
+            </li>
+            <li>
+              <a href="#">Sách giáo khoa</a>
+            </li>
+            <li>
+              <a href="#">Tạp chí - báo</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="column-2">
+          <!-- Hot book -->
+          <div class="book" id="hot">
+            <div class="row-1">Sách hot</div>
+            <ul class="list-book">
+              <li class="content-book">
+                <img
+                  src="./assets/img/sach-hot/dungbaogiodianmotminh.jpg"
+                  alt="Đừng bao giờ đi ăn một mình"
+                />
+                <a href="#">
+                  <p>
+                    Đừng bao giờ đi ăn một mình <br />
+                    (Tái bản lần thứ 7) <br />
+                    Keth Ferrazzi Tahl Raz
+                  </p>
+                  <div class="price">
+                    <div class="old-price">119.000đ</div>
+                    <div class="new-price">95.000đ</div>
+                  </div>
+                </a>
+              </li>
+              <li class="content-book">
+                <img
+                  src="./assets/img/sach-hot/combo-matbiec.jpg"
+                  alt="Combo-3-mắt biếc"
+                />
+                <a href="#">
+                  <p>
+                    Combo 3 cuốn - Mắt Biếc <br />
+                    (Bìa mềm - Tặng Poster) <br />
+                    Nguyễn Nhật Ánh
+                  </p>
+                  <div class="price">
+                    <div class="old-price">220.000đ</div>
+                    <div class="new-price">154.000đ</div>
+                  </div>
+                </a>
+              </li>
+              <li class="content-book">
+                <img
+                  src="./assets/img/sach-hot/nhagiakim.jpg"
+                  alt="Nhà giả kim"
+                />
+                <a href="#">
+                  <p>
+                    Nhà giả kim <br />
+                    (Tặng kèm Poster) <br />
+                    Paullo Ceolho
+                  </p>
+                  <div class="price">
+                    <div class="old-price">99.000đ</div>
+                    <div class="new-price">79.000đ</div>
+                  </div>
+                </a>
+              </li>
+              <li class="content-book">
+                <img
+                  src="./assets/img/sach-hot/tenduongbang.jpg"
+                  alt="Trên đường băng"
+                />
+                <a href="#">
+                  <p>
+                    Trên đường băng <br />
+                    (Bìa cứng - Tặng Poster) <br />
+                    Tony buổi sáng
+                  </p>
+                  <div class="price">
+                    <div class="old-price">120.000đ</div>
+                    <div class="new-price">54.000đ</div>
+                  </div>
+                </a>
+              </li>
+              <li class="content-book">
+                <img
+                  src="./assets/img/sach-hot/tuoiterdanggiabaonhieu.jpg"
+                  alt="Tuổi trẻ đáng giá bao nhiêu"
+                />
+                <a href="#">
+                  <p>
+                    Tuổi trẻ đáng giá bao nhiêu <br />
+                    Tái bản 2017 <br />
+                    Rosie Nguyễn
+                  </p>
+                  <div class="price">
+                    <div class="old-price">99.000đ</div>
+                    <div class="new-price">79.000đ</div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="book" id="kh-kt">
+            <div class="row-1">Khoa học- kỹ thuật</div>
+            <ul class="list-book">
+              <li class="content-book">
+                <img
+                  src="./assets/img/sachkh-kt/bia_nhan-to-enzyme_full-69k.jpg"
+                  alt="Nhân tố enzyme"
+                />
+                <a href="#">
+                  <p>
+                    Nhân tố enzyme <br />
+                    Hiromi Shinya <br />
+                  </p>
+                  <div class="price">
+                    <div class="old-price">80.000đ</div>
+                    <div class="new-price">56.000đ</div>
+                  </div>
+                </a>
+              </li>
+              <li class="content-book">
+                <img
+                  src="./assets/img/sachkh-kt/codedaokysu.jpg"
+                  alt="Code dạo ký sự"
+                />
+                <a href="#">
+                  <p>
+                    Code dạo ký sự <br />
+                    Phạm Huy Hoàng
+                  </p>
+                  <div class="price">
+                    <div class="old-price">76.000đ</div>
+                    <div class="new-price">54.000đ</div>
+                  </div>
+                </a>
+              </li>
+              <li class="content-book">
+                <img
+                  src="./assets/img/sachkh-kt/danh_nhan_steve_jobs.jpg"
+                  alt="Who?"
+                />
+                <a href="#">
+                  <p>
+                    Who? <br />
+                    Steve Jobs
+                  </p>
+                  <div class="price">
+                    <div class="old-price">111.000đ</div>
+                    <div class="new-price">77.000đ</div>
+                  </div>
+                </a>
+              </li>
+              <li class="content-book">
+                <img
+                  src="./assets/img/sachkh-kt/khaocodeso.jpg"
+                  alt="Khảo cổ dễ sợ"
+                />
+                <a href="#">
+                  <p>
+                    Khảo cổ dễ sợ <br />
+                    Nick Arnold
+                  </p>
+                  <div class="price">
+                    <div class="old-price">120.000đ</div>
+                    <div class="new-price">54.000đ</div>
+                  </div>
+                </a>
+              </li>
+              <li class="content-book">
+                <img
+                  src="./assets/img/sachkh-kt/minhtriettronganuong-63k.jpg"
+                  alt="Minh triết trong ăn uống của phương Đông"
+                />
+                <a href="#">
+                  <p>
+                    Minh triết trong ăn uống của phương Đông <br />
+                    Ngô Đức Vương
+                  </p>
+                  <div class="price">
+                    <div class="old-price">89.000đ</div>
+                    <div class="new-price">63.000đ</div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="book" id="kinh-te">
+            <div class="row-1">Kinh tế</div>
+            <ul class="list-book">
+              <li class="content-book">
+                <img
+                  src="./assets/img/sach-kinh-te/2.jpg"
+                  alt="Nguyên lý quản lý chuỗi cung ứng"
+                />
+                <a href="#">
+                  <p>
+                    Nguyên lý quản lý <br />
+                    chuỗi cung ứng <br />
+                    Michael H.Hugos
+                  </p>
+                  <div class="price">
+                    <div class="old-price">80.000đ</div>
+                    <div class="new-price">56.000đ</div>
+                  </div>
+                </a>
+              </li>
+              <li class="content-book">
+                <img
+                  src="./assets/img/sach-kinh-te/6.jpg"
+                  alt="36 lời khuyên dành cho người khởi nghiệp"
+                />
+                <a href="#">
+                  <p>
+                    36 lời khuyên dành cho người khởi nghiệp<br />
+                    (Tái bản lần thứ 9) <br />
+                    Tôn Đào Nghĩa
+                  </p>
+                  <div class="price">
+                    <div class="old-price">76.000đ</div>
+                    <div class="new-price">54.000đ</div>
+                  </div>
+                </a>
+              </li>
+              <li class="content-book">
+                <img
+                  src="./assets/img/sach-kinh-te/10.jpg"
+                  alt="Lý Gia Thành"
+                />
+                <a href="#">
+                  <p>
+                    Lý Gia Thành <br />
+                    (Tặng kèm 1 poster) <br />
+                    Anthony B.Chan
+                  </p>
+                  <div class="price">
+                    <div class="old-price">111.000đ</div>
+                    <div class="new-price">77.000đ</div>
+                  </div>
+                </a>
+              </li>
+              <li class="content-book">
+                <img
+                  src="./assets/img/sach-kinh-te/14.jpg"
+                  alt="Tư duy làm giàu"
+                />
+                <a href="#">
+                  <p>
+                    Tư duy làm giàu<br />
+                    Napoleon Hill
+                  </p>
+                  <div class="price">
+                    <div class="old-price">79.000đ</div>
+                    <div class="new-price">56.000đ</div>
+                  </div>
+                </a>
+              </li>
+              <li class="content-book">
+                <img
+                  src="./assets/img/sach-kinh-te/17.jpg"
+                  alt="Ngôn ngữ của thành công"
+                />
+                <a href="#">
+                  <p>
+                    Ngôn ngữ của thành công <br />
+                    Tập 6 <br />
+                    Tom Saint
+                  </p>
+                  <div class="price">
+                    <div class="old-price">89.000đ</div>
+                    <div class="new-price">63.000đ</div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="content">
+        <div class="body">
+          <p>Công ty cổ phần thương mại dịch vụ YML</p>
+          <p>Địa chỉ: 01 Lê Văn Việt, Quận 9</p>
+          <p>Số ĐT: 0998878712 | Email: lyemebook@gmail.com</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
